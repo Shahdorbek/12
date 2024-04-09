@@ -1,0 +1,67 @@
+FRONTENT_1, [09.04.2024 13:25]
+<<<=============== ***** DOM  ***** ===============>>>
+JavaScript da DOM nima ???
+
+(document object model)-DOM
+
+Hozirgi kunda bulardan foydalanilmay qo'yilga (1,2,3)
+
+1.
+Id lar orqali  1 ta elementlar ucchun 
+==> getElementById('') 
+
+2.
+class lar orqali ko'likda keladi va [ ] qaytaradi 
+==> getElementsByClassName('');
+
+3.
+teg lar orqali ko'plikda va  [] qaytaradi
+==> getElementsByTagName('')
+
+
+//////===============================
+Hozirda shundan foydalaniladi 
+1. 
+elementlar uchun 
+==> querySelector('')
+
+2.
+Ko'plikda keladi 
+==> querySelectorAll('')
+
+FRONTENT_1, [09.04.2024 13:26]
+JavaScript  orqali web saytga Dinamik holatda 
+stil qo'shi 
+
+//==============
+bu orqali css  style dinamik berishimiz mumkun
+harqanday css mumkun
+==> nomi.style.background='';
+
+
+//==============
+Agar bloklar ko'p bo'lsa va ularga  birhil  style beril
+for yoki forEach  da foydalaniladi
+
+for(let i=0; i<nomi.length){
+    nomi.style.background='red'
+}
+
+
+//==============
+Blokdan nusxa olish  3 bosqichda boladi 
+
+
+1. createElement ==> element qo'shadi 
+const circle=document.createElement('div');
+
+2. classList==>  elemtga css yozilgan class qo'shadi 
+circle.classList.add('circle');
+
+
+3. Ota blokni ichiga manzilga qo'shadi 
+cwrapper.append(circle)
+
+append <==> qo'shadi tartib bilan 
+before <==> qo'shadi tepadan 
+after  <==> qo'shadi pastan
